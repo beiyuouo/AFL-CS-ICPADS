@@ -21,3 +21,18 @@ Example:
 bash scripts/run_mnist.sh
 bash scripts/run_fashionmnist.sh
 ```
+
+## Citation
+
+If you use this code for your research, please cite our paper:
+
+```
+@inproceedings{yan2023afl,
+  title={AFL-CS: Asynchronous Federated Learning with Cosine Similarity-based Penalty Term and Aggregation},
+  author={Yan, Bingjie and Jiang, Xinlong and Chen, Yiqiang and Gao, Chenlong and Liu, Xuequn},
+  booktitle={2023 IEEE 29th International Conference on Parallel and Distributed Systems (ICPADS)},
+  pages={46--53},
+  year={2023},
+  organization={IEEE}
+}
+```
