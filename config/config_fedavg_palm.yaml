@@ -1,0 +1,13 @@
+# training config for fedavg on mnist
+batch_size: 4
+test_batch_size: 4
+
+num_clients: 5
+num_select_clients_per_round: 5
+
+model_name: "resnet18"
+in_channels: 3
+num_classes: 3
+img_size: 224
+
+sync: true

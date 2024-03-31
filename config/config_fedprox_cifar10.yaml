@@ -1,0 +1,11 @@
+# training config for fedprox on cifar10
+batch_size: 16
+test_batch_size: 1000
+
+model_name: "resnet18"
+in_channels: 3
+num_classes: 10
+img_size: 32
+
+sync: true
+lamda: 0.005

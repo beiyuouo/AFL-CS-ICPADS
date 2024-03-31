@@ -1,0 +1,14 @@
+# training config for aflcs on cifar10
+batch_size: 4
+test_batch_size: 4
+
+num_clients: 5
+
+model_name: "resnet18"
+in_channels: 3
+num_classes: 5
+img_size: 224
+
+sync: false
+lamda: 0.005
+cs: 0.005
